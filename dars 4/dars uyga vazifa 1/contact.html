@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bog'lanish - IT Live Academy</title>
+    
+    <!-- Sarlavhani tepada qotirib qo'yuvchi stil -->
+    <style>
+        header h1 {
+            position: sticky;
+            top: 0;
+            background-color: white; /* Matn orqasidagi kontent ko'rinib qolmasligi uchun */
+            padding: 10px 0;
+            margin: 0;
+            z-index: 1000; /* Boshqa elementlar ustida turishi uchun */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Biz bilan bog'lanish</h1>
+        <p>Savollaringiz bormi? Bizga xabar qoldiring yoki to'g'ridan-to'g'ri bog'laning!</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Bosh sahifa</a></li>
+            <li><a href="about.html">Haqida</a></li>
+            <li><a href="courses.html">Kurslar</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Aloqa ma'lumotlari -->
+        <section>
+            <h2>Bizning Manzil va Aloqa</h2>
+            <p><strong>Manzil:</strong> Toshkent shahri, Yunusobod tumani, IT Park binosi, 3-qavat</p>
+            <p><strong>E-pochta:</strong> info@itlive.uz</p>
+            <p><strong>Telefon:</strong> +998 (90) 123-45-67 | +998 (71) 200-00-00</p>
+            <p><strong>Orientir:</strong> Bodomzor metro bekati yaqinida</p>
+        </section>
+
+        <!-- Forma va ish vaqti -->
+        <section>
+            <article>
+                <h3>Konsultatsiya uchun ro'yxatdan o'ting</h3>
+                <form>
+                    <label for="name">Ismingiz va Familiyangiz:</label><br>
+                    <input type="text" id="name" name="name" placeholder="Masalan: Ali Valiyev" required><br><br>
+                    
+                    <label for="phone">Telefon raqamingiz:</label><br>
+                    <input type="tel" id="phone" name="phone" placeholder="+998 90 123 45 67" required><br><br>
+
+                    <label for="email">E-pochta manzilingiz:</label><br>
+                    <input type="email" id="email" name="email" placeholder="example@gmail.com" required><br><br>
+
+                    <label for="course">Qiziqqan kursingizni tanlang:</label><br>
+                    <select id="course" name="course">
+                        <option value="frontend">Frontend Dasturlash</option>
+                        <option value="backend">Backend Dasturlash</option>
+                        <option value="foundation">Foundation</option>
+                    </select><br><br>
+
+                    <label for="message">Savol yoki xabaringiz:</label><br>
+                    <textarea id="message" name="message" rows="5" placeholder="Savolingizni bering..." required></textarea><br><br>
+                    
+                    <button type="submit">Yuborish</button>
+                </form>
+            </article>
+
+            <aside>
+                <h4>Ish Tartibi</h4>
+                <p><strong>Dushanba - Shanba:</strong> 09:00 - 18:00</p>
+                <p><strong>Yakshanba:</strong> Dam olish kuni</p>
+                <hr>
+                <h4>Ijtimoiy Tarmoqlar</h4>
+                <ul>
+                    
+    
+    
+                <li><a href="https://t.me/itliveacademy" target="_blank">Telegram</a></li>
+                <li><a href="https://instagram.com/itliveacademy" target="_blank">Instagram</a></li>
+                <li><a href="https://youtube.com/@itliveacademy" target="_blank">YouTube</a></li>
+ 
+                </ul>
+            </aside>
+        </section>
+
+        <!-- Ko'p beriladigan savollar -->
+        <section>
+            <h2>Ko'p beriladigan savollar (FAQ)</h2>
+            <article>
+                <h4>Kurslarga yosh cheklovi bormi?</h4>
+                <p>Yo'q, dasturlashni o'rganishni xohlagan har qanday yoshdagi o'quvchilarni qabul qilamiz (tavsiya etiladigani 14 yoshdan yuqori).</p>
+            </article>
+            <article>
+                <h4>Darslarni o'tkazib yuborsam nima bo'ladi?</h4>
+                <p>Barcha darslar yozib olinadi va o'quvchilarning shaxsiy kabinetiga joylanadi. Istalgan vaqtda qayta ko'rishingiz mumkin.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 IT Live Academy. All rights reserved.</p>
+    </footer>
+</body>
+</html>

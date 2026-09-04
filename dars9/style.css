@@ -1,0 +1,29 @@
+:root {
+    --primary: #EF3123;
+    --secondary: #071A3A;
+    --text: #1F2937;
+    --background: #F5F7FA;
+}
+
+* { 
+    box-sizing: border-box; 
+    margin: 0; padding: 0;
+}
+
+body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--background);}
+
+
+.tag{
+    display: inline;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 600;
+    color: white;
+}
+.tag-new{background: var(--primary);}
+.tag-free{background: #16a34a;}
+.link{
+    color: var(--secondary);
+    font-weight: 600;
+}

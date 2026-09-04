@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IT Live</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <h2>IT Live</h2>
+
+        <a href="#">Bosh sahifa</a>
+        <a href="#">Kurslar</a>
+        <a href="#">Ustozlar</a>
+        <a href="#">Aloqa</a>
+    </div>
+
+    <!-- Hero -->
+    <div class="hero">
+        <h1>Kelajakni qadam qo'ying!</h1>
+        <p>Bizning IT kurslarimiz orqali yangi bilimlarni o'rganing.</p>
+        <button>Kurslarni ko'rish</button>
+    </div>
+
+    <!-- Kurslar -->
+    <div class="kurslar">
+        <h1>Kurslar</h1>
+
+        <div class="card">
+            <h2>HTML & CSS</h2>
+            <p>Web sayt yaratishni o'rganing.</p>
+        </div>
+
+        <div class="card">
+            <h2>JavaScript</h2>
+            <p>JavaScript dasturlash tilini o'rganing.</p>
+        </div>
+
+        <div class="card">
+            <h2>React</h2>
+            <p>Zamonaviy saytlar yaratishni o'rganing.</p>
+        </div>
+    </div>
+
+    <!-- Ustozlar -->
+    <div class="ustozlar">
+        <h1>Ustozlar</h1>
+
+        <div class="teacher">
+            <h3>Ali Valiyev</h3>
+            <p>Frontend dasturchi</p>
+        </div>
+
+        <div class="teacher">
+            <h3>Madina Karimova</h3>
+            <p>JavaScript ustoz</p>
+        </div>
+    </div>
+
+    <!-- CTA -->
+    <div class="cta">
+        <h2>O'qishni bugun boshlang!</h2>
+        <button>Ro'yxatdan o'tish</button>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>IT Live © 2026</p>
+        <p>Telefon: +998 90 123 45 67</p>
+    </div>
+
+</body>
+</html>
