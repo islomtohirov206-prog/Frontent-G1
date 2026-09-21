@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitLife Live - Shaxsiy Fitnes Dashboard</title>
+    <!-- FontAwesome Ikonkalari -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- CSS Faylni ulash -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <div class="logo">
+            <i class="fa-solid fa-bolt"></i> Fit<span>Live</span>
+        </div>
+        <ul class="menu">
+            <li class="active"><a href="#"><i class="fa-solid fa-house"></i> Bosh sahifa</a></li>
+            <li><a href="#"><i class="fa-solid fa-dumbbell"></i> Mashg'ulotlar</a></li>
+            <li><a href="#"><i class="fa-solid fa-chart-line"></i> Statistika</a></li>
+            <li><a href="#"><i class="fa-solid fa-bullseye"></i> Maqsadlar</a></li>
+            <li><a href="#"><i class="fa-solid fa-apple-whole"></i> Ratsion</a></li>
+            <li><a href="#"><i class="fa-solid fa-user"></i> Profil</a></li>
+            <li><a href="#"><i class="fa-solid fa-gear"></i> Sozlamalar</a></li>
+        </ul>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Header -->
+        <header class="header">
+            <div class="search-box">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Qidirish...">
+            </div>
+            <div class="user-nav">
+                <i class="fa-solid fa-bell bell-icon"></i>
+                <img src="https://i.pravatar.cc/100?img=12" alt="User Avatar">
+            </div>
+        </header>
+
+        <!-- Welcome Banner -->
+        <section class="welcome-sec">
+            <h2>Xush kelibsiz, Abdulloh!</h2>
+            <p>Bugungi sport yutuqlaringiz va fitnes statistikangiz.</p>
+        </section>
+
+        <!-- Stats Grid -->
+        <section class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-icon icon-red">
+                    <i class="fa-solid fa-fire"></i>
+                </div>
+                <div class="stat-info">
+                    <span>Kaloriya</span>
+                    <h3>1,850 kcal</h3>
+                </div>
+            </div>
+
+            <div class="stat-card">
+                <div class="stat-icon icon-green">
+                    <i class="fa-solid fa-person-walking"></i>
+                </div>
+                <div class="stat-info">
+                    <span>Qadamlar</span>
+                    <h3>8,420</h3>
+                </div>
+            </div>
+
+            <div class="stat-card">
+                <div class="stat-icon icon-yellow">
+                    <i class="fa-solid fa-heart-pulse"></i>
+                </div>
+                <div class="stat-info">
+                    <span>Yurak urishi</span>
+                    <h3>92 % bpm</h3>
+                </div>
+            </div>
+
+            <div class="stat-card">
+                <div class="stat-icon icon-pink">
+                    <i class="fa-solid fa-trophy"></i>
+                </div>
+                <div class="stat-info">
+                    <span>Yutuqlar</span>
+                    <h3>4 ta</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dashboard Body -->
+        <div class="dashboard-body">
+            <!-- Left Column: Workouts Progress -->
+            <div class="left-col">
+                <div class="card">
+                    <h3 class="card-title">Mashg'ulotlar davomiyligi</h3>
+                    
+                    <!-- Progress Item 1 -->
+                    <div class="progress-item">
+                        <div class="progress-header">
+                            <div class="workout-title">
+                                <div class="workout-icon icon-red">
+                                    <i class="fa-solid fa-person-running"></i>
+                                </div>
+                                Cardio & Yugurish
+                            </div>
+                            <span class="percent-text">75%</span>
+                        </div>
+                        <div class="progress-bar-bg">
+                            <div class="progress-fill fill-red"></div>
+                        </div>
+                    </div>
+
+                    <!-- Progress Item 2 -->
+                    <div class="progress-item">
+                        <div class="progress-header">
+                            <div class="workout-title">
+                                <div class="workout-icon icon-yellow">
+                                    <i class="fa-solid fa-dumbbell"></i>
+                                </div>
+                                Kuch mashqlari (Kachalka)
+                            </div>
+                            <span class="percent-text">60%</span>
+                        </div>
+                        <div class="progress-bar-bg">
+                            <div class="progress-fill fill-yellow"></div>
+                        </div>
+                    </div>
+
+                    <!-- Progress Item 3 -->
+                    <div class="progress-item">
+                        <div class="progress-header">
+                            <div class="workout-title">
+                                <div class="workout-icon icon-blue">
+                                    <i class="fa-solid fa-spa"></i>
+                                </div>
+                                Yoga & Cho'zilish
+                            </div>
+                            <span class="percent-text">40%</span>
+                        </div>
+                        <div class="progress-bar-bg">
+                            <div class="progress-fill fill-blue"></div>
+                        </div>
+                    </div>
+
+                    <a href="#" class="view-all-link">Barcha mashg'ulotlarni ko'rish &rarr;</a>
+                </div>
+            </div>
+
+            <!-- Right Column: Profile & Next Workout -->
+            <div class="right-col">
+                <!-- User Card -->
+                <div class="card profile-card">
+                    <img src="https://i.pravatar.cc/100?img=12" alt="User Photo">
+                    <h4>Abdulloh Ne'matov</h4>
+                    <p>Atlet / Sportchi</p>
+                    <button class="btn-edit">Tahrirlash</button>
+                </div>
+
+                <!-- Next Workout Card -->
+                <div class="card next-activity">
+                    <h3 class="card-title title-sm">Keyingi mashg'ulot</h3>
+                    <h4>Oyoq va Yelka mashqlari</h4>
+                    <p>Boshlanish vaqti: Bugun, 18:00</p>
+                    <button class="btn-start">Boshlash</button>
+                </div>
+
+                <!-- Recent Achievement -->
+                <div class="card">
+                    <h3 class="card-title title-sm">Yaqin yutuq</h3>
+                    <div class="achievement-box">
+                        <i class="fa-solid fa-award"></i>
+                        <div>
+                            <span>10 kun ketma-ket</span>
+                            <strong>Sprint Chempioni</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>

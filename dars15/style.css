@@ -1,0 +1,71 @@
+:root {
+    --primary: #EF3123;
+    --secondary: #071A3A;
+    --text: #1F2937;
+    --background: #F5F7FA;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: var(--background);
+    color: var(--text);
+}
+
+.btn {
+    border: none;
+    border-radius: 8px;
+    padding: 14px 28px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-primary {
+    background: var(--primary);
+    color: white;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.signup-form input {
+    padding: 12px 14px;
+    border: 2px solid #E5E7EB;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.signup-form input:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 4px rgba(239, 49, 35, 0.2);
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--text);
+    border-bottom: 2px solid transparent;
+    transition: color 0.2s ease, border-bottom-color 0.2s ease;
+}
+
+/*hover - havola ustida sichqoncha bo'lganda*/
+.nav-links a:hover {
+    color: var(--primary);
+    border-bottom-color: var(--primary);
+}
+
+/* active - oddiy class, "joriy sahifa belgisi" */
+.nav-links a.active {
+    color: var(--primary);
+    border-bottom-color: var(--primary);
+    font-weight: 600;
+}
